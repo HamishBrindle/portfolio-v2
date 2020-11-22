@@ -23,6 +23,7 @@
     "analyze": "nuxt build --analyze"
   },
   "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
     "frontmatter-markdown-loader": "^3.1.0",
     "node-sass": "^4.13.0",
     "responsive-loader": "^1.2.0",

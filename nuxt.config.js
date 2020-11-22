@@ -59,7 +59,8 @@ module.exports = {
       { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon-144x144.png', sizes: '144x144' },
       { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon-152x152.png', sizes: '152x152' },
       { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon-180x180.png', sizes: '180x180' },
-      { rel: 'mask-icon', type: 'image/png', href: '/favicons/safari-pinned-tab.svg', color: '#c1c1c1' }
+      { rel: 'mask-icon', type: 'image/png', href: '/favicons/safari-pinned-tab.svg', color: '#c1c1c1' },
+      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" }
     ]
   },
   /*
@@ -115,6 +116,20 @@ module.exports = {
       });
     }
   },
+  buildModules: [
+    [
+      '@nuxtjs/vuetify',
+      {
+        // Options
+        defaultAssets: {
+          font: {
+            family: 'Graphik',
+          },
+          icons: 'mdi'
+        }
+      }
+    ]
+  ],
   plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', { src: '~plugins/ga.js', ssr: false }],
   modules: [  
     '@nuxtjs/style-resources',
