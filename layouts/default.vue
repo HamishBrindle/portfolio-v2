@@ -1,26 +1,24 @@
 <template>
-  <div class="layout">
-    <nuxt class="nuxt-content"/>
+  <v-app>
+    <Header />
+
+    <v-main>
+      <nuxt />
+    </v-main>
+
     <Footer/>
-  </div>
+  </v-app>
 </template>
 <script>
+  import Header from '~/components/Sections/Header'
   import Footer from '~/components/Sections/Footer'
 
   export default {
     components: {
+      Header,
       Footer
     }
   }
 </script>
 <style lang="scss">
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.nuxt-content {
-  flex-grow: 1;
-}
 </style>
