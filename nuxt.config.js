@@ -22,7 +22,6 @@ md.use(mip)
 
 const productionUrl = {
   en: "/en",
-  es: "/es"
 };
 const baseUrl = 'https://hamishbrindle.com';
 
@@ -75,8 +74,6 @@ module.exports = {
   */
   css: [
     'normalize.css/normalize.css',
-    '@/assets/css/main.scss',
-    '@/assets/css/prism-material-light.css'
   ],
 
   build: {
@@ -155,9 +152,9 @@ module.exports = {
 
   generate: {
     routes: [
-      '/es', '404'
+      // '/es', '404'
     ]
-    .concat(getPaths('es', 'blog'))
+    // .concat(getPaths('es', 'blog'))
     .concat(getPaths('en', 'blog'))
   }
 }

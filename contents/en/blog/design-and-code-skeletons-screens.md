@@ -6,7 +6,7 @@ year: 1 May 2019
 color: '#edece7'
 isTextColorDark: true
 noMainImage: true
-extraComponent: 'Datatable'
+# extraComponent: 'Datatable'
 id: 'design-and-code-skeletons-screens'
 description: |
   You will learn how to design a Skeleton Screen thinking about its asynchronometry and how to code it based on Sketch or Photoshop opacity modes.
@@ -66,13 +66,13 @@ I don't usually design small animations, because I directly code them in CSS to 
 
 Let's suppose that you already have coded the table layout and it's this one:
 
-<Component 
+<!-- <Component 
 :is="extraComponentLoader"
 :blend="false"
 :verticalAnimation="false"
 :horizontalAnimation="false"
 :isLoading="false"
-/>
+/> -->
 
 ### Step 1: Code the 3 rows with its fake content.
 
@@ -139,7 +139,7 @@ Result:
 }
 ```
 
-<Component :is="extraComponentLoader" :blend="false" :horizontalAnimation="false" />
+<!-- <Component :is="extraComponentLoader" :blend="false" :horizontalAnimation="false" /> -->
 
 ### Step 3: The most complex part of a Skeleton Screen: horizontal animation.
 
@@ -198,7 +198,7 @@ We will apply an `:before` to `datagrid__row` with an absolute position so it wi
 
 Result:
 
-<Component :is="extraComponentLoader" :blend="false" />
+<!-- <Component :is="extraComponentLoader" :blend="false" /> -->
 
 Finally we apply the `mix-blend-mode: overlay` and magically we will get the vertical and horizontal animations together.
 
@@ -209,14 +209,14 @@ Finally we apply the `mix-blend-mode: overlay` and magically we will get the ver
 ```
 Result:
 
-<Component :is="extraComponentLoader" />
+<!-- <Component :is="extraComponentLoader" /> -->
 
 ## Play with the final result
 
 All these examples that you've seen before are not images or videos, they are an unique component of Vue that I changed in each case modifying its props.
 Now you can play with this component variation by clicking the checkbox of `loading` that will change the status from normal to loading state.
 
-<Component :is="extraComponentLoader" checkbox :isLoading="false" />
+<!-- <Component :is="extraComponentLoader" checkbox :isLoading="false" /> -->
 
 In a real application, `isLoading` variable will be given by the system which implements the asynchronous load and it'll be a boolean type too, like this checkbox.
 
