@@ -11,7 +11,7 @@ description: |
 
 ## Why did I re-do my website with Nuxt?
 
-Although some of you already know me, I am [Marina Aísa](https://twitter.com/MarinaAisa), UX Engineer (design and front-end) and I currently work at [Holaluz](https://www.holaluz.com/en).
+Although some of you already know me, I am [Marina Aísa](https://twitter.com/hamishbrindle), UX Engineer (design and front-end) and I currently work at [Holaluz](https://www.holaluz.com/en).
 
 Last year, 2018, I was very focused on learning more about JavaScript, which was a pending subject and at the same time I learnt [Vue.js](https://vuejs.org/). Meanwhile at my workplace, we started using [Nuxt.js](https://nuxtjs.org/) a framework on VueJS to remake both company's static and dynamic (SPA) webapps into components and create a design system with it.
 
@@ -154,6 +154,6 @@ To translate the web in English and Spanish I use [nuxt-i18n](https://github.com
 
 - Loading Vue asynchronous components with the practical example of the travel map that is in the home page.
 
-I thought about publishing a starter about it but being realist, I wouldn't have enough time to maintain it. I think this post explains how to do it very well, but if you have any doubt left, you can always contact me at my email: [marina@marinaaisa](mailto:marina@marinaaisa.com).
+I thought about publishing a starter about it but being realist, I wouldn't have enough time to maintain it. I think this post explains how to do it very well, but if you have any doubt left, you can always contact me at my email: [marina@hamishbrindle](mailto:marina@hamishbrindle.com).
 
-Since I don't have a comments section on each post, I would love to continue the conversation on [Twitter](https://twitter.com/MarinaAisa). All feedback is welcome! If you think there is something that it can be improved, you would help me a lot.
+Since I don't have a comments section on each post, I would love to continue the conversation on [Twitter](https://twitter.com/hamishbrindle). All feedback is welcome! If you think there is something that it can be improved, you would help me a lot.

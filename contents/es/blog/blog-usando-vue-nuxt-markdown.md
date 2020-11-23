@@ -11,7 +11,7 @@ description: |
 
 ## ¿Por qué re-hice mi web con Nuxt?
 
-Aunque algunos ya me conoceis, soy [Marina Aísa](https://twitter.com/MarinaAisa), UX Engineer (diseño y front-end) y actualmente trabajo en [Holaluz](https://www.holaluz.com).
+Aunque algunos ya me conoceis, soy [Marina Aísa](https://twitter.com/hamishbrindle), UX Engineer (diseño y front-end) y actualmente trabajo en [Holaluz](https://www.holaluz.com).
 
 El pasado año, 2018, estuve muy enfocada en aprender más de JavaScript, la cual era una asignatura pendiente y a la vez aprendí una de sus librerías, [Vue.js](https://vuejs.org/). Al mismo tiempo, en Holaluz, empezamos a utilizar [Nuxt.js](https://nuxtjs.org/), un framework sobre VueJS para rehacer tanto las webs estáticas como las dinámicas (SPA) de la empresa en componentes y poder crear un sistema de diseño con ello.
 
@@ -154,6 +154,6 @@ Para traducir la web en inglés y español utilizo [nuxt-i18n](https://github.co
 
 - Carga de componentes asíncronos de Vue con el ejemplo práctico del mapa que hay en la home.
 
-Pensé en publicar un starter de Nuxt pero siendo realista no tendría tiempo para mantenerlo. Creo que este post explica muy bien cómo hacerlo, pero si te has quedado con alguna duda, siempre puedes contactarme a mi email: [marina@marinaaisa](mailto:marina@marinaaisa.com).
+Pensé en publicar un starter de Nuxt pero siendo realista no tendría tiempo para mantenerlo. Creo que este post explica muy bien cómo hacerlo, pero si te has quedado con alguna duda, siempre puedes contactarme a mi email: [marina@hamishbrindle](mailto:marina@hamishbrindle.com).
 
-Como no tengo comentarios en el blog, me encantaría continuar la conversación en [Twitter](https://twitter.com/MarinaAisa). ¡Todo feedback es bienvenido! Si crees que hay algo que se puede mejorar me ayudarías muchísimo.
+Como no tengo comentarios en el blog, me encantaría continuar la conversación en [Twitter](https://twitter.com/hamishbrindle). ¡Todo feedback es bienvenido! Si crees que hay algo que se puede mejorar me ayudarías muchísimo.
