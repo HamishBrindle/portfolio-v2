@@ -29,10 +29,12 @@ export default {
 }
 </script>
 <style lang="scss">
+@import '~vuetify/src/styles/styles.sass';
+
 .blogs {
   margin: 0;
   
-  @media (min-width: $screen-sm){
+  @media #{map-get($display-breakpoints, 'sm-and-down')} {
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
     display: grid;

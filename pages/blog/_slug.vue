@@ -147,6 +147,8 @@
 </script>
 
 <style lang="scss">
+@import '~vuetify/src/styles/styles.sass';
+
 .overflowhidden {
   overflow: hidden;
 }
@@ -175,7 +177,7 @@
   flex-direction: column;
   min-height: 459px;
 
-  @media (min-width: $screen-md){
+  @media #{map-get($display-breakpoints, 'md-and-up')} {
     flex-direction: row;
   }
 
@@ -189,7 +191,7 @@
     padding: 2.4rem;
     margin-bottom: auto;
 
-    @media (min-width: $screen-md){
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
       margin-left: auto;
       padding: 2.4rem 4rem 2.4rem 2.4rem;
     }
@@ -204,9 +206,9 @@
   &__title {
     font-size: 3rem;
     font-family: 'Tiempos Headline', Arial, sans-serif;
-    color: $secondary;
+    color: var(--v-secondary-base);
 
-    @media (min-width: $screen-sm){
+    @media #{map-get($display-breakpoints, 'sm-and-up')} {
       font-size: 4rem;
     }
   }
@@ -223,7 +225,7 @@
   padding: 3.2rem 0;
   font-size: 16px;
   line-height: 1.7;
-  color: $secondary;
+  color: var(--v-secondary-base);
 
   > *:not(.datagrid):not(.image-placeholder) {
     max-width: 700px;
@@ -232,7 +234,7 @@
     display: block;
   }
 
-  @media (min-width: $screen-sm){
+  @media #{map-get($display-breakpoints, 'sm-and-up')} {
     padding: 7.2rem 0;
     font-size: 19px;
   }
@@ -241,7 +243,7 @@
     padding-bottom: 3.2rem;
     padding-bottom: 2rem;
 
-    @media (max-width: $screen-sm){
+    @media #{map-get($display-breakpoints, 'sm-and-down')} {
       font-size: 2rem;
     }
   }
@@ -273,11 +275,11 @@
     background: #f3f4f4;
     border-radius: 4px;
     display: inline;
-    color: $secondary;
+    color: var(--v-secondary-base);
     font-size: 14px;
     padding: .2em .4em;
 
-    @media (min-width: $screen-sm){
+    @media #{map-get($display-breakpoints, 'sm-and-up')} {
       font-size: 16px;
     }
   }

@@ -23,9 +23,11 @@ export default {
 }
 </script>
 <style lang="scss">
+@import '~vuetify/src/styles/styles.sass';
+
 select {
   border-radius: 0;
-  color: $primary;
+  color: var(--v-primary-base);
   padding: 1rem 3rem 1rem 1rem;
   border: 1px solid transparent;
   -webkit-appearance: none;
@@ -40,7 +42,7 @@ select {
   cursor: pointer;
 
   &:hover {
-    border-color: $primary;
+    border-color: var(--v-primary-base);
   }
   
   &:focus {

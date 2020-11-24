@@ -30,6 +30,8 @@
 </script>
 
 <style lang="scss">
+@import '~vuetify/src/styles/styles.sass';
+
 .cardThumbnail {
     transition: all ease .75s;
     opacity: .7;
@@ -39,7 +41,7 @@
   }
   .blog {
 
-    @media (min-width: $screen-sm){
+    @media #{map-get($display-breakpoints, 'sm-and-down')} {
       padding-bottom: 0;
 
       &:last-child {
@@ -49,13 +51,13 @@
 
     &:hover {
       .blog__title {
-        color: $primary;
+        color: var(--v-primary-base);
       }
     }
 
     &__title {
       font-family: 'Tiempos Headline', Arial, sans-serif;
-      color: $secondary;
+      color: var(--v-secondary-base);
       padding-top: 1rem;
       font-size: 2.5rem;
       transition: color .3s;
@@ -63,7 +65,7 @@
 
     &__description {
       margin: 0;
-      color: $grey-2;
+      color: var(--v-grey-base);
     }
   }
 </style>
