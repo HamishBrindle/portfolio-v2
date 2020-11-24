@@ -113,20 +113,18 @@ module.exports = {
       });
     }
   },
-  buildModules: [
-    [
-      '@nuxtjs/vuetify',
-      {
-        // Options
-        defaultAssets: {
-          font: {
-            family: 'Graphik',
-          },
-          icons: 'mdi'
-        }
-      }
-    ]
-  ],
+  buildModules: ['@nuxtjs/vuetify'],
+  vuetify: {
+    defaultAssets: {
+      font: {
+        family: 'Graphik',
+      },
+      icons: 'mdi'
+    },
+    customVariables: ['~/assets/variables.scss'],
+    treeShake: true,
+    optionsPath: '~/plugins/vuetify.js'
+  },
   plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', { src: '~plugins/ga.js', ssr: false }],
   modules: [  
     '@nuxtjs/style-resources',
